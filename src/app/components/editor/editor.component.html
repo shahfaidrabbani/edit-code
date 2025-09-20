@@ -1,0 +1,28 @@
+<div class="container" [style.flex-grow]="isOpen ? 1 : 0">
+  <div class="header">
+    <div class="heading">
+      <span 
+        class="icon"
+        [style.background-color]="color"
+      >
+        {{ icon }}
+      </span>
+      {{ heading }}
+    </div>
+    <button 
+      class="toggle-btn"
+      (click)="toggleEditor()"
+    >
+      {{ isOpen ? '−' : '+' }}
+    </button>
+  </div>
+  <div class="editor-wrapper" *ngIf="isOpen">
+    <textarea
+      #editorContainer
+      class="editor"
+      [value]="value"
+      (input)="onValueChange($event)"
+      [placeholder]="'Enter ' + heading + ' code here...'"
+    ></textarea>
+  </div>
+</div>

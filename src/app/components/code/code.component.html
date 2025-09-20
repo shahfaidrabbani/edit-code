@@ -1,0 +1,28 @@
+<div class="container">
+  <app-editor 
+    language="xml"
+    heading="HTML"
+    [value]="html"
+    (valueChange)="onHtmlChange($event)"
+    icon="/"
+    color="#FF3C41"
+  ></app-editor>
+  
+  <app-editor 
+    language="css"
+    heading="CSS"
+    [value]="css"
+    (valueChange)="onCssChange($event)"
+    icon="*"
+    color="#0EBEFF"
+  ></app-editor>
+  
+  <app-editor 
+    language="javascript"
+    heading="JS"
+    [value]="js"
+    (valueChange)="onJsChange($event)"
+    icon="( )"
+    color="#FCD000"
+  ></app-editor>
+</div>
