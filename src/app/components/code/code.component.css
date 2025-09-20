@@ -1,0 +1,7 @@
+.container {
+  background-color: #6fd6d3;
+  height: 50vh;
+  display: flex;
+  border: 1px solid #6fd6d3;
+  border-radius: 5px;
+}
