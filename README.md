@@ -1,6 +1,6 @@
 ﻿#  CODE EDITOR
 ## Description
->This project is created using ***React js***, ***Material UI*** and ***CodeMirror library***. It aims to provide an intuitive and user-friendly online platform for writing, editing, and executing code similar to CodePen
+>This project is created using ***Angular***, ***Material UI*** and ***CodeMirror library***. It aims to provide an intuitive and user-friendly online platform for writing, editing, and executing code similar to CodePen
 ## Features
 - **Real-Time Code Editing:** _Edit your code in real-time with a intuitive editor interface._
 
@@ -11,3 +11,4 @@
 > ### Checkout Here  [Edit code 🌐](https://shahfaidrabbani.github.io/edit-code/)
 > ### Preview Image
 > ![Screenshot (181)](https://github.com/shahfaidrabbani/edit-code/assets/98690431/8bec286b-b20c-4a30-8a12-eae516a1caeb)
+
